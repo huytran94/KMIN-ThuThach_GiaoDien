@@ -1,0 +1,47 @@
+body {
+  min-height: 100vh;
+}
+.demo {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  text-align: center;
+  vertical-align: middle;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-noti {
+  background-color: rgba(143, 143, 238, 0.692);
+  color: white;
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: 1px solid white;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn-noti:hover {
+  background-color: white;
+  color: rgba(143, 143, 238, 0.692);
+  border: 1px solid rgba(143, 143, 238, 0.692);
+}
+
+.btn-noti .badge {
+  display: inline-block;
+  padding: 5px 10px;
+
+  position: absolute;
+  top: -10px;
+  right: -7px;
+
+  border-radius: 50%;
+  background-color: rgba(223, 7, 7, 0.85);
+  color: white;
+  text-align: center;
+}
